@@ -1,28 +1,42 @@
-# TASK-NAME
+# Profile Website
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+- Fork and clone this [repository](https://github.com/JoinCODED/TASK-intro-HTML) and open it in VSCode
 
 ## Instructions
 
-Add instructions here. This is github flavoured markdown so you can be as creative as you want. Add code snippets, images, gifs, checkboxes, anything you want.
+You are going to create a profile website from scratch using HTML only.
 
-### 1. Extract Components
+### Section 1:
 
-- [ ] Look at the html in `index.html`
-- [ ] Move it into `App.js`
-- [ ] Do you see those cards? Can you turn them into a component??
+- Type your name using `<h1>...</h1>` tag in the top
+- Change the title of the website using the `<title>...</title>` tag to your name `e.g. (Ahmad Hasan)`
+- Type a description about yourself using the tag `<p>...</p>`
+- Include your image using the tag `<img src="URL HERE" />`
+- Add a separator comment to separate between the 2 sections using the comment tag `<!-- Section 2 -->`
+- End the sections using the `<hr/>`
 
-It should look like this:
+### Section 2:
 
-![screenshot](https://tenor.com/xNjE.gif)
+- H2 with text "My hobbies"
+- list 5 of your hobbies in a list from your choice (`ul` / `ol`).
+- Don't forget to use the tag `li` to add each hobby to the list
 
-### 2. Do the thing
-
-Explanation of the thing and why we're about to do it. Cool right?
-
-- [ ] Make a `store.js` file
-- [ ] Copy + Paste broken code:  
-  ```js
-  console.log("lol");
+  ```html
+  <ul>
+    <li>Hobby</li>
+    <li>Hobby</li>
+    <li>Hobby</li>
+  </ul>
   ```
-- [ ] Have an explanation ready for when Zainab interrogates you
+
+- If you click on any hobby, it should take you to an image that represents it
+- Make your first hobby <strong>bold</strong> using the tag `<strong>`
+- End the sections using the `<hr/>`
+
+- Add a separator comment to separate between the 2 sections using the comment tag `<!-- Section 3 -->`
+
+### Section 3:
+
+- Create a footer using `div` with a `style` attribute `background-color: black; color: white;`
+- Using the tag `<a href="link">...</a>`, add inside the footer links with titles for your social media account (e.g. [twitter](https://twitter.com/joincoded)). Where if you click on it, it will redirect to your account directly. (It should open in a new tab!)
+- Using the tag `<a>`, add a link with title "whatsapp me", where if you click on it, it will open Whatsapp web to directly contact your number. [Learn how](https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=en)
